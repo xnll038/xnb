@@ -1,0 +1,17 @@
+[
+  {
+    "id": "test1",
+    "repo": "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin1/refs/heads/main/plugin.json",
+    "latest": "1.0.0"
+  },
+  {
+    "id": "test2",
+    "repo": "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin2/refs/heads/main/plugin.json",
+    "latest": "1.0.0"
+  },
+  {
+    "id": "test3",
+    "repo": "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin3/refs/heads/main/plugin.json",
+    "latest": "1.0.0"
+  }
+]
