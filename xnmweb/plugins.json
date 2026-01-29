@@ -1,40 +1,43 @@
 [
   {
     "id": "test1",
-    "version": "1.0.0",
-    "xnmwebVersion": "1.0.0",
+    "latest": "1.0.0@1.0.0#only",
     "author": "xnll038",
     "license": "Custom",
     "title": "Test 1",
     "description": "Some description",
-    "source": "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin1/refs/heads/main",
-	  "dependencies": [
+    "repo": [
+		["1.0.0@1.0.0#only", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin1/refs/heads/main"]
+	],
+	"dependencies": [
         ["test2", "1.0.0"]
     ]
   },
   {
     "id": "test2",
-    "version": "1.0.0",
-    "xnmwebVersion": "1.0.0",
+    "latest": "1.0.0@1.0.0#only",
     "author": "xnll038",
     "license": "Custom",
     "title": "Test 2",
     "description": "Some description",
-    "source": "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin2/refs/heads/main",
-	  "dependencies": [
+    "repo": [
+		["1.0.0@1.0.0#only", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin2/refs/heads/main"]
+	],
+	"dependencies": [
         ["test1", "1.0.0"]
     ]
   },
   {
     "id": "test3",
-    "version": "1.0.0",
-    "xnmwebVersion": "1.0.0",
+    "latest": "1.0.0@1.0.0#only",
     "author": "xnll038",
     "license": "Custom",
     "title": "Test 3",
     "description": "Some description",
-    "source": "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin3/refs/heads/main",
-	  "dependencies": [
+    "repo": [
+		["1.0.0@1.0.0#only", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin3/refs/heads/main"]
+	],
+	"dependencies": [
         ["test1", "1.0.0"],
         ["test2", "1.0.0"]
     ]
