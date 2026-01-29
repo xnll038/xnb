@@ -1,7 +1,7 @@
 [
   {
     "id": "test1",
-    "latest": "1.0.0@1.0.0#only",
+    "latest": "1.0.0@1.0.1#only",
     "author": "xnll038",
     "license": "Custom",
     "title": "Test 1",
