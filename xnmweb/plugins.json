@@ -7,6 +7,7 @@
     "title": "Test 1",
     "description": "Some description",
     "repo": [
+		["1.0.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin1/refs/heads/main"],
 		["1.0.0@1.0.1", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin1/refs/heads/main"]
 	],
 	"dependencies": [
