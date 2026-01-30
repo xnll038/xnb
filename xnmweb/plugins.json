@@ -1,6 +1,6 @@
 [
   {
-    "id": "core-utils",
+    "id": "test2",
     "latest": "2.1.0@1.0.0",
     "author": "xnll038",
     "license": "MIT",
@@ -13,27 +13,27 @@
       ["en", "Fundamental functions for messaging and encryption"]
     ],
     "repo": [
-      ["2.1.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmweb-core-utils/v2.1.0/plugin.js"],
-      ["2.0.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmweb-core-utils/v2.0.0/plugin.js"],
-      ["1.5.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmweb-core-utils/v1.5.0/plugin.js"],
-      ["1.0.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmweb-core-utils/v1.0.0/plugin.js"]
+      ["2.1.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin2/refs/heads/main/plugin.json"],
+      ["2.0.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin2/refs/heads/main/plugin.json"],
+      ["1.5.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin2/refs/heads/main/plugin.json"],
+      ["1.0.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin2/refs/heads/main/plugin.json"]
     ],
     "dependencies": [
       ["2.1.0@1.0.0", [
-        ["ui-theme", "1.0.0@1.0.0#uptomajor"],
-        ["logger", "0.9.0@1.0.0"]
+        ["test3", "1.0.0@1.0.0"],
+        ["test1", "1.0.0@1.0.0"]
       ]],
       ["2.0.0@1.0.0", [
-        ["ui-theme", "0.9.0@1.0.0#uptominor"]
+        ["test3", "1.0.0@1.0.0"]
       ]],
       ["1.5.0@1.0.0", [
-        ["ui-theme", "0.8.0@1.0.0#uptomajor"]
+        ["test3", "1.0.0@1.0.0"]
       ]],
       ["1.0.0@1.0.0", []]
     ]
   },
   {
-    "id": "ui-theme",
+    "id": "test3",
     "latest": "1.0.0@1.0.0",
     "author": "xnll038",
     "license": "Custom",
@@ -46,99 +46,22 @@
       ["en", "Minimalist UI theme with dark mode support"]
     ],
     "repo": [
-      ["1.0.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmweb-ui-theme/v1.0.0/plugin.js"],
-      ["0.9.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmweb-ui-theme/v0.9.0/plugin.js"],
-      ["0.8.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmweb-ui-theme/v0.8.0/plugin.js"],
-      ["0.5.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmweb-ui-theme/v0.5.0/plugin.js"]
+      ["1.0.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin3/refs/heads/main/plugin.json"],
+      ["0.9.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin3/refs/heads/main/plugin.json"],
+      ["0.8.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin3/refs/heads/main/plugin.json"],
+      ["0.5.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin3/refs/heads/main/plugin.json"]
     ],
     "dependencies": [
       ["1.0.0@1.0.0", [
-        ["core-utils", "2.0.0@1.0.0#uptomajor"]
+        ["test2", "2.0.0@1.0.0#uptomajor"]
       ]],
       ["0.9.0@1.0.0", [
-        ["core-utils", "1.5.0@1.0.0#uptominor"]
+        ["test2", "1.5.0@1.0.0#uptominor"]
       ]],
       ["0.8.0@1.0.0", [
-        ["core-utils", "1.0.0@1.0.0"]
+        ["test2", "1.0.0@1.0.0"]
       ]],
       ["0.5.0@1.0.0", []]
-    ]
-  },
-  {
-    "id": "file-transfer",
-    "latest": "3.2.1@1.1.0",
-    "author": "xnll038",
-    "license": "GPL-3.0",
-    "title": [
-      ["ru", "Передача файлов"],
-      ["en", "File Transfer"]
-    ],
-    "description": [
-      ["ru", "P2P передача файлов через WebRTC с поддержкой возобновления"],
-      ["en", "P2P file transfer via WebRTC with resume support"]
-    ],
-    "repo": [
-      ["3.2.1@1.1.0", "https://raw.githubusercontent.com/xnll038/xnmweb-file-transfer/v3.2.1/plugin.js"],
-      ["3.2.0@1.1.0", "https://raw.githubusercontent.com/xnll038/xnmweb-file-transfer/v3.2.0/plugin.js"],
-      ["3.1.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmweb-file-transfer/v3.1.0/plugin.js"],
-      ["3.0.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmweb-file-transfer/v3.0.0/plugin.js"],
-      ["2.5.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmweb-file-transfer/v2.5.0/plugin.js"]
-    ],
-    "dependencies": [
-      ["3.2.1@1.1.0", [
-        ["encryption", "2.0.0@1.0.0#uptomajor"],
-        ["ui-theme", "1.0.0@1.0.0#uptominor"],
-        ["logger", "1.0.0@1.0.0"]
-      ]],
-      ["3.2.0@1.1.0", [
-        ["encryption", "2.0.0@1.0.0#uptomajor"],
-        ["ui-theme", "0.9.0@1.0.0"]
-      ]],
-      ["3.1.0@1.0.0", [
-        ["encryption", "1.5.0@1.0.0#uptomajor"],
-        ["ui-theme", "0.9.0@1.0.0#uptominor"]
-      ]],
-      ["3.0.0@1.0.0", [
-        ["encryption", "1.0.0@1.0.0"]
-      ]],
-      ["2.5.0@1.0.0", [
-        ["core-utils", "1.5.0@1.0.0#uptomajor"]
-      ]]
-    ]
-  },
-  {
-    "id": "encryption",
-    "latest": "2.0.0@1.0.0",
-    "author": "xnll038",
-    "license": "AGPL-3.0",
-    "title": [
-      ["ru", "Расширенное шифрование"],
-      ["en", "Advanced Encryption"]
-    ],
-    "description": [
-      ["ru", "Дополнительные алгоритмы шифрования и управление ключами"],
-      ["en", "Additional encryption algorithms and key management"]
-    ],
-    "repo": [
-      ["2.0.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmweb-encryption/v2.0.0/plugin.js"],
-      ["1.5.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmweb-encryption/v1.5.0/plugin.js"],
-      ["1.0.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmweb-encryption/v1.0.0/plugin.js"],
-      ["0.9.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmweb-encryption/v0.9.0/plugin.js"]
-    ],
-    "dependencies": [
-      ["2.0.0@1.0.0", [
-        ["file-transfer", "3.0.0@1.0.0#uptomajor"],
-        ["core-utils", "2.0.0@1.0.0#uptomajor"],
-        ["logger", "1.0.0@1.0.0"]
-      ]],
-      ["1.5.0@1.0.0", [
-        ["file-transfer", "2.5.0@1.0.0#uptomajor"],
-        ["core-utils", "1.5.0@1.0.0#uptominor"]
-      ]],
-      ["1.0.0@1.0.0", [
-        ["core-utils", "1.0.0@1.0.0"]
-      ]],
-      ["0.9.0@1.0.0", []]
     ]
   }
 ]
